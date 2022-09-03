@@ -1,0 +1,29 @@
+.banner {
+	margin-top: $mt-50px;
+	background-image: url(../images/banner-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 150px 0px;
+	background-position: center center;
+}
+.banner .caption {
+	background-color: $color-05;
+	padding: 30px;
+	max-width: 450px;
+}
+.banner .caption h2 {
+	margin-top: $mt-0px;
+	margin-bottom: 15px;
+	font-size: 24px;
+	font-weight: $fw-700;
+	color: $color-06;
+}
+.banner .caption .line-dec {
+	width: 30px;
+	height: 5px;
+	background-color: #3a8bcd;
+}
+.banner .caption p {
+	margin-top: $mt-15px;
+	margin-bottom: $mb-20px;
+}

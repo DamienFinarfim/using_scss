@@ -1,0 +1,37 @@
+.featured-page {
+	margin-top: $mt-130px;
+	margin-bottom: $mb-40px;
+}
+.featured-page .section-heading {
+	margin-top: $mt-0px;
+	margin-bottom: $mb-0px;
+}
+.featured-page #filters {
+	margin-top: 15px;
+	text-align: $ta;
+}
+.featured .featured-item {
+	margin-bottom: 30px;
+	text-decoration: none;
+}
+.featured .featured-item h4 {
+	transition: $ts;
+}
+.featured .featured-item:hover h4 {
+	color: $color-03;
+}
+#filter button {
+	outline: none;
+}
+#filter .btn-primary.focus,
+.btn-primary:focus {
+	color: $color-03!important;
+	box-shadow: none!important;
+}
+#filters .btn-primary {
+	color: $color-06;
+	border: none;
+	font-size: 15px;
+	font-weight: $fw-700;
+	background-color: transparent;
+}

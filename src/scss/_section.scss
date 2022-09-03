@@ -1,0 +1,15 @@
+.section-heading {
+	margin-top: $mt-80px;
+	margin-bottom: $mb-80px;
+}
+.section-heading .line-dec {
+	width: 30px;
+	height: 5px;
+	background-color: $color-03;
+}
+.section-heading h1 {
+	font-size: 22px;
+	font-weight: $fw-700;
+	color: $color-06;
+	margin-top: 15px;
+}

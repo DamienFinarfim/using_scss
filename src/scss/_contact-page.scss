@@ -1,0 +1,67 @@
+.contact-page {
+	margin-top: $mt-50px;
+    margin-bottom: $mb-80px;
+}
+.contact-page .right-content input,
+.contact-page .right-content textarea {
+	border-radius: 0px;
+	outline: none;
+	box-shadow: none;
+	font-size: 14px;
+	margin-bottom: $mb-30px;
+}
+.contact-page .right-content input {
+	height: 44px;
+	line-height: 44px;
+}
+.contact-page .right-content textarea {
+	height: 200px;
+	max-height: 280px;
+}
+.contact-page .right-content span {
+	display: $dib;
+	margin-left: 8px;
+}
+.contact-page .right-content span a i {
+	transition: $ts;
+	background-color: $color-07;
+	width: 26px;
+	height: 26px;
+	display: $dib;
+	text-align: $ta;
+	line-height: 26px;
+	border-radius: 50%;
+	color: $color-02;
+	font-size: 12px;
+	margin-right: 5px;
+}
+.contact-page .right-content .share {
+	margin-top: $mt-30px;
+	border-top: 1px solid $color-04;
+	padding: 15px 0px;
+}
+.contact-page .right-content h6 {
+	font-size: 14px;
+	color: $color-01;
+	font-weight: $fw-400;
+}
+.contact-page .right-content span a:hover i {
+	background-color: $color-03;
+}
+.contact-page .right-content .button {
+	cursor: pointer;
+	background-color: $color-03;
+	outline: none;
+	border-radius: 5px;
+	padding: 10px 15px;
+	display: $dib;
+	color: $color-02;
+	font-size: 14px;
+	text-transform: $tt;
+	font-weight: $fw-300;
+	letter-spacing: 0.4px;
+	text-decoration: none;
+	transition: $ts;
+	box-shadow: none;
+	border: none;
+}

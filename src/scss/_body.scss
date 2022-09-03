@@ -1,0 +1,53 @@
+body {
+	font-family: $ff;
+	transition: $ts;
+    }
+    p {
+        margin-bottom: $mb-0px;
+        font-size: 14px;
+        color: $color-01;
+        line-height: 24px;
+    }
+    a {
+        text-decoration: none!important;
+}
+
+.copyright-text {
+	text-transform: $tt;
+}
+
+.main-button 
+	a {
+	background-color: $color-03;
+	border-radius: 5px;
+	padding: 10px 15px;
+	display: $dib;
+	color: $color-02;
+	font-size: 14px;
+	text-transform: $tt;
+	font-weight: $fw-300;
+	letter-spacing: 0.4px;
+	text-decoration: none;
+	transition: $ts;
+	}
+	a:hover {
+	opacity: 0.7;
+    }
+	a:hover {
+	opacity: 0.7;
+}
+.section-heading {
+	margin-top: $mt-80px;
+	margin-bottom: $mb-40px;
+}
+.section-heading .line-dec {
+	width: 30px;
+	height: 5px;
+	background-color: $color-03;
+}
+.section-heading h1 {
+	font-size: 22px;
+	font-weight: $fw-700;
+	color: $color-06;
+	margin-top: $mt-15px;
+}
